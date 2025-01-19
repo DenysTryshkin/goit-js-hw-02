@@ -58,10 +58,6 @@ Complete the function as follows:
 
 Take the code below and paste it after your function declaration to verify that it works correctly. The console will display the function's results.
 
-javascript
-
-Копіювати код
-
 `console.log(makeTransaction(5, 3000, 23000)); // "You ordered 5 droids worth 15000 credits!"
 console.log(makeTransaction(3, 1000, 15000)); // "You ordered 3 droids worth 3000 credits!"
 console.log(makeTransaction(10, 5000, 8000)); // "Insufficient funds!"
@@ -84,10 +80,6 @@ Complete the function as follows:
 -   If the string length exceeds `maxLength`, the function should truncate the string to `maxLength` characters, add an ellipsis (`"..."`) at the end, and return the truncated version.
 
 Take the code below and paste it after your function declaration to verify that it works correctly. The console will display the function's results.
-
-javascript
-
-Копіювати код
 
 `console.log(formatMessage("Curabitur ligula sapien", 16)); // "Curabitur ligula..."
 console.log(formatMessage("Curabitur ligula sapien", 23)); // "Curabitur ligula sapien"
@@ -112,10 +104,6 @@ Complete the function as follows:
 -   If the forbidden words are not present, the function should return `false`.
 
 Take the code below and paste it after your function declaration to verify that it works correctly. The console will display the function's results.
-
-javascript
-
-Копіювати код
 
 `console.log(checkForSpam("Latest technology news")); // false
 console.log(checkForSpam("JavaScript weekly newsletter")); // false
@@ -147,10 +135,6 @@ List of countries and shipping costs:
 Shipping is not available to countries outside the list. If the specified country is not on the list, the function should return the string `"Sorry, there is no delivery to your country"`.
 
 Take the code below and paste it after your function declaration to verify that it works correctly. The console will display the function's results.
-
-javascript
-
-Копіювати код
 
 `console.log(getShippingCost("Australia")); // "Shipping to Australia will cost 170 credits"
 console.log(getShippingCost("Germany")); // "Sorry, there is no delivery to your country"
